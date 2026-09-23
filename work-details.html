@@ -3,23 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Works</title>
+    <title>Work Details | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <div class="page">
-        <header class="site-header">
+
+    <!-- Header Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Portfolio</a>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="blog.html">Blog</a>
-                <a href="works.html" class="active">Works</a>
-                <a href="#contact">Contact</a>
+                <ul class="nav-links">
+                    <li><a href="work.html" class="active">Works</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
             </nav>
-         </header>
+        </div>
+    </header>
 
-
-
+    <!-- Main Content Section -->
+    <main class="container work-details-section">
         
-    </div> 
+        <!-- Project Title Header -->
+        <header class="project-header">
+            <h1 class="project-title">Designing Dashboards with Usability in Mind</h1>
+            <div class="project-meta">
+                <span class="badge">2020</span>
+                <span class="category">Dashboard, User Interface Design</span>
+            </div>
+            <p class="project-intro">
+                A comprehensive case study detailing the end-to-end design process of an intuitive dashboard system. 
+                Focused on simplifying complex data, enhancing visual hierarchy, and improving user workflow.
+            </p>
+        </header>
+
+        <!-- Main Featured Image -->
+        <figure class="featured-image-container">
+            <!-- Replace 'work-1.jpg' with the actual image name inside your 'images/' folder -->
+            <img src="images/image1.png" alt="Featured Work Design" class="featured-image">
+        </figure>
+
+        <!-- Detailed Description Paragraphs -->
+        <article class="project-body">
+            <h2>Heading 1</h2>
+            <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. 
+                Exercitation veniam consequat sunt nostrud amet. Essential elements were reorganized to minimize cognitive load, allowing users 
+                to quickly analyze key metrics without feeling overwhelmed.
+            </p>
+
+            <h2>Heading 2</h2>
+            <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. 
+                Exercitation veniam consequat sunt nostrud amet. Iterative feedback cycles were crucial in refining component hierarchy 
+                and establishing accessible color contrasts across all views.
+            </p>
+
+            <!-- Secondary Visual Media -->
+            <figure class="detail-image-container">
+                <!-- Replace 'work-2.jpg' with an actual image name inside your 'images/' folder -->
+                <img src="images/image2.png" alt="Secondary Interface Mockup" class="detail-image">
+            </figure>
+            
+            <figure class="detail-image-container">
+                <!-- Replace 'work-3.jpg' with an actual image name inside your 'images/' folder -->
+                <img src="images/image3.png" alt="Additional Workspace Details" class="detail-image">
+            </figure>
+        </article>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="copyright">Copyright ©2026 All rights reserved</p>
+        </div>
+    </footer>
+
 </body>
 </html>
+
