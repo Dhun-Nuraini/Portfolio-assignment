@@ -41,3 +41,35 @@ img { display: block; max-width: 100%; }
   color: #f2665e;
 }
 
+/* Recent posts section - Yahaya */
+.recent-posts {
+  background-color:#EDF7FA ;
+  padding: 40px 20px;
+}
+.recent-posts-header h2 {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #21243D;
+}
+.recent-posts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.posts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.post-card {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 8px;
+}
+@media (max-width: 600px) {
+  .posts-grid {
+    grid-template-columns: 1fr;
+  }
+}
