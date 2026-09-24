@@ -192,8 +192,6 @@ img { display: block; max-width: 100%; }
 }
 
 .footer-icons a {
-  width: 30px;
-  height: 30px;
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -203,6 +201,15 @@ img { display: block; max-width: 100%; }
 .icon-facebook,
 .icon-linkedin {
   background: #1e2749;
+}
+.icon-facebook img {
+  width: 20px;
+  height: 30px;
+}
+
+.icon-linkedin{
+  width: 30px;
+  height: 30px;
 }
 
 /* Instagram: outlined square, white fill, navy glyph (set in the SVG file) */
